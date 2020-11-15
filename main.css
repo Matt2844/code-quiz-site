@@ -1,0 +1,70 @@
+
+
+body {
+  background-color: rgb(36, 36, 36);
+}
+
+.main-title {
+  margin-top: 5%;
+  margin-left: 6%;
+  border-radius: 6px;
+  max-width: 80%;
+  height: auto; 
+}
+
+.quiz-area-one {
+  color: black;
+  max-width: 80%;
+  border: 1px solid white;
+  margin-left: 6%;
+  margin-top: 4%;
+  padding-bottom: 200px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+}
+
+.quiz-area-two {
+  color: black;
+  max-width: 80%;
+  border: 1px solid white;
+  margin-left: 6%;
+  margin-top: 4%;
+  padding-bottom: 200px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+}
+
+.quiz-area-three {
+  color: black;
+  max-width: 80%;
+  border: 1px solid white;
+  margin-left: 6%;
+  margin-top: 4%;
+  padding-bottom: 200px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 6px;
+}
+
+.quiz-area-four {
+  color: black;
+  max-width: 80%;
+  border: 1px solid white;
+  margin-left: 6%;
+  margin-top: 4%;
+  padding-bottom: 200px;
+  border-radius: 6px;
+  background-color: rgb(230, 230, 230);
+}
+
+.quiz-area-five {
+  color: black;
+  max-width: 80%;
+  border: 1px solid white;
+  margin-left: 6%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-bottom: 200px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 6px;
+}
+
