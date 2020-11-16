@@ -1,7 +1,8 @@
 
 
 body {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(211, 211, 211);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-title {
@@ -10,61 +11,137 @@ body {
   border-radius: 6px;
   max-width: 80%;
   height: auto; 
+  box-shadow: 7px 7px 7px black;
 }
 
-.quiz-area-one {
+/* Answer input styling */
+
+#myText, #myText2, #myText3 {
+  background: transparent; 
+  border: none; 
+  border-bottom: 2px solid black;
   color: black;
+  font-size: 18px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+/* Question 1 */
+
+.quizAreaOne {
+  color: rgb(255, 255, 255);
   max-width: 80%;
   border: 1px solid white;
   margin-left: 6%;
   margin-top: 4%;
-  padding-bottom: 200px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 8px;
+  padding-bottom: 5;
+  background-image:url(images/comp1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 27px;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  box-shadow: 7px 7px 10px black
+
 }
 
-.quiz-area-two {
-  color: black;
+.quizAreaOne:hover {
+  background-image: url(images/comp12.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.submit1, .submit2, .submit3 {
+  margin: 2%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#showContainer {
+  visibility: hidden;
+  font-size: 20px;
+}
+
+#correctanswer1 {
+  border: 2px black;
+}
+
+/* Question 2*/
+
+.quizAreaTwo {
+  color: rgb(255, 255, 255);
   max-width: 80%;
   border: 1px solid white;
   margin-left: 6%;
   margin-top: 4%;
-  padding-bottom: 200px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 8px;
+  padding-bottom: 5;
+  background-image:url(images/comp2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  box-shadow: 7px 7px 10px black
+
 }
 
-.quiz-area-three {
-  color: black;
+.quizAreaTwo:hover {
+  background-image: url(images/comp22.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.submit2 {
+  margin: 2%
+}
+
+#showContainer2 {
+  visibility: hidden;
+}
+
+/* Question 3 */
+
+.quizAreaThree {
+  color: rgb(255, 255, 255);
   max-width: 80%;
   border: 1px solid white;
   margin-left: 6%;
   margin-top: 4%;
-  padding-bottom: 200px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 6px;
-}
-
-.quiz-area-four {
-  color: black;
-  max-width: 80%;
-  border: 1px solid white;
-  margin-left: 6%;
-  margin-top: 4%;
-  padding-bottom: 200px;
-  border-radius: 6px;
-  background-color: rgb(230, 230, 230);
-}
-
-.quiz-area-five {
-  color: black;
-  max-width: 80%;
-  border: 1px solid white;
-  margin-left: 6%;
-  margin-top: 4%;
+  padding-bottom: 5;
+  background-image:url(images/comp3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 27px;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  box-shadow: 7px 7px 10px black;
   margin-bottom: 3%;
-  padding-bottom: 200px;
-  background-color: rgb(230, 230, 230);
-  border-radius: 6px;
+}
+
+.quizAreaThree:hover {
+  background-image: url(images/comp33.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.submit3 {
+  margin: 2%
+}
+
+#showContainer3 {
+  visibility: hidden;
 }
 
