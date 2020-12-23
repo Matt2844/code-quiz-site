@@ -32,7 +32,7 @@ const submittedAnswer2 = () => {
   document.getElementById("showsubmit2").innerHTML = `Your current answer: ${a2}`;
   document.getElementById("showContainer2").style.visibility = "visible";
 
-  if (a2 === (`'${answer}'`) || a2 === (`"${answer}"`)) {
+  if (a2 === (`${answer}`) || a2 === (`"${answer}"`)) {
     document.getElementById("correctanswer2").innerHTML = "Correct!"
     document.getElementById("correctanswer2").style.color = "green";
     correct = correct + 1
